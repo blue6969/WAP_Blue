@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/* CSS Document */
+@font-face{
+	font-family:'yuantong';src:url(yuantong.ttf); 
+}
+*{
+	font-family:yuantong, "Times New Roman", Times, serif;
+	font-size:14px;
+	margin:0px;
+	padding:0px;
+}
+
+li{
+	list-style:none;
+}
+a, a:link ,a:visited, a:hover, a:active 
+{
+	text-decoration:none;
+	color:#fff;
+}
