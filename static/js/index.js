@@ -1,7 +1,7 @@
 $(function()
 {	   
 	$('.downapp').click(function(){
-		alert('downapp')
+		window.location.href='http://www.blue69.cn/download.html';
 	});
    
 	

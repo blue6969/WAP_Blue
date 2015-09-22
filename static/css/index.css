@@ -133,7 +133,7 @@
 .title-text
 {
 	line-height:60px;
-	font-size:40px;
+	font-size:60px;
 	color:#363636;
 }
 .content
@@ -143,8 +143,8 @@
 }
 .content-text
 {
-	line-height:40px;
-	font-size:28px;
+	line-height:50px;
+	font-size:36px;
 	color:#666;
 }
 .content-text img
@@ -278,7 +278,6 @@
 {
 	width:20px;
 	height:20px;
-	background:#96F;
     -moz-border-radius: 5px; 
     -webkit-border-radius: 5px;   
     border-radius:5px;
@@ -309,7 +308,7 @@
 }
 .comment-sp-floor
 {
-	font-size:24px;
+	font-size:32px;
 }
 .comment-sp-icon
 {
@@ -323,7 +322,7 @@
 }
 .comment-sp-date
 {
-	font-size:20px;
+	font-size:28px;
 }
 
 .comment-like 
@@ -363,7 +362,7 @@
 {
 	width:calc(100% - 30px);
 	margin-left:30px;
-	font-size:24px;
+	font-size:32px;
 	line-height:35px;
 	color:#999;
 }
@@ -415,7 +414,6 @@
 	width:20px;
 	height:20px;
 	margin-left:10px;
-	background:#96F;
     -moz-border-radius: 5px; 
     -webkit-border-radius: 5px;   
     border-radius:5px;
@@ -458,7 +456,7 @@
 	margin-left:80px;
 	margin-top:20px;
 	margin-bottom:20px;
-	font-size:24px;
+	font-size:36px;
 	color:#999;
 	line-height:40px;
 }
