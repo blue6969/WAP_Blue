@@ -9,6 +9,9 @@
 	margin:0px;
 	padding:0px;
 }
+p{
+	margin-bottom:10px;
+}
 
 li{
 	list-style:none;
