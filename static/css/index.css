@@ -217,12 +217,13 @@
 .like-users-box
 {
 	width:32px;
+	height:32px;
 	margin-top:10px;
 	margin-right:5px;
 	overflow:hidden;
-    -moz-border-radius: 20px;
-    -webkit-border-radius: 20px;
-    border-radius:20px;
+    -moz-border-radius:16px;
+    -webkit-border-radius: 16px;
+    border-radius:16px;
 	float:left;
 }
 .like-users-box img
