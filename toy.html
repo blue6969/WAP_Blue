@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <link href="static/css/common.css" rel="stylesheet">
+    <link href="static/css/toy.css" rel="stylesheet"> 
+    <link href="static/css/idangerous.swiper.css" rel="stylesheet"> 
+	<script type="text/javascript" src="static/js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="static/js/idangerous.swiper.js"></script>    
+<title>玩具详情页</title>
+</head>
+<body>
+<div class="page">
+   
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="title"><img src="static/image/img1.png"/></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="title"><img src="static/image/img2.jpg"/></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="title"><img src="static/image/img3.jpg"/></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="title"><img src="static/image/topic-img.jpg"/></div>
+      </div>
+    </div>
+    <div class="pagination"></div>
+    <div class="pagecount">共6张</div>
+  </div>
+    <div class="title-box">
+    	<div class="title-name">杜莱恩SDF</div>
+    	<div class="price">￥1230</div>
+    	<div class="collection">总关注:1241</div>
+    </div>
+    <div class="post-box">
+    	<div class="post-item ceping-box">
+        	<div class="item-img"><img src="static/image/toy-ceping.png"/></div>
+        	<div class="item-title">用户测评</div>
+        	<div class="item-postcount">5位用户体验</div>        
+        </div>
+    	<div class="post-item play-box">
+        	<div class="item-img"><img src="static/image/toy-video.png"/></div>
+        	<div class="item-title">看看达人怎么玩</div>
+        	<div class="item-postcount">43个帖子</div>        
+        </div>
+    	<div class="post-item video-box">
+        	<div class="item-img"><img src="static/image/toy-play.png"/></div>
+        	<div class="item-title">相关视频</div>
+        	<div class="item-postcount">3个视频</div>        
+        </div>
+    </div>
+    
+    <div class="detail-box">
+    	<div class="detail-title">图文详情</div>
+    	<div class="detail-left"><img src="static/image/toy-left.png"/></div>
+    	<div class="detail-right"><img src="static/image/toy-right.png"/></div>
+    </div>
+    <div class="content">
+    		<div class="content-text">
+<img src="static/image/img2.jpg"/>
+            RGB颜色和十六位颜色互转-站长工具
+站长工具网提供站长常用代码转换工具(Css代码压缩/格式化,JavaScript/HTML格式化,迅雷、快车、旋风URL加/解密,Unicode编码转换,HTML/JS转换工具等.)
+www.kqiqi.com/tools/RG... 
+ - 百度快照 - 评价
+为您推荐：网页颜色在线ps24位颜色24位真彩色rgb32位颜色
+Javascript实现Web颜色值转换_javascript技巧_脚本之家
+2015年2月5日 - 这篇文章主要介绍了Javascript实现Web颜色值转换,需要的朋友可以参考下... 今天稍微有些时间,翻看了一下最近项目中的一些前端代码,看到Web颜色转换功...
+www.jb51.net/article/6... 
+<img src="static/image/img1.png"/>
+            </div>
+    </div>
+    
+    <div class="nav">
+        <nav>
+        	<div class="nav-content">
+            	<div class="btn_buy">去购买</div>
+            </div>
+        </nav>
+    </div>
+    
+</div>
+  <script>
+  var mySwiper = new Swiper('.swiper-container',{
+    pagination: '.pagination',
+    paginationClickable: true
+  });
+  
+  $(document).ready(function(e) {
+	  
+    $('.ceping-box').on('click',function(){
+		alert('cp');
+		});
+    $('.play-box').on('click',function(){
+		alert('play-box');
+		});
+    $('.video-box').on('click',function(){
+		alert('video-box');
+		});
+    $('.nav-content').on('click',function(){
+		alert('nav-content');
+		});
+	
+});
+
+
+  </script>
+</body>
+</html>

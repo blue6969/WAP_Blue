@@ -1,8 +1,8 @@
 @charset "UTF-8";
 /* CSS Document */
-@font-face{
+/*@font-face{
 	font-family:'yuantong';src:url(yuantong.ttf); 
-}
+}*/
 *{
 	font-family:yuantong, "Times New Roman", Times, serif;
 	font-size:14px;

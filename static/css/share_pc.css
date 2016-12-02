@@ -54,10 +54,11 @@
 
 .nav-right-buttom-qrcode
 {
-	width:1280px;
+	width:211px;
 	height:240px;
 	position:fixed;
 	bottom:0px;
+	margin-left: 1069px;
 	z-index:999;
 }
 
@@ -79,7 +80,7 @@
 {
 	position:absolute;
 	left:10px;
-	top:5px;	
+	top:5px;
 	height:70px;
 	min-width:130px;
 	font-size:36px;
@@ -108,7 +109,7 @@
 	margin-top:10px;
 }
 .auther-name
-{  
+{
 	font-size:18px;
 	color:#666666;
 }
@@ -116,8 +117,8 @@
 {
 	width:11px;
 	height:11px;
-    -moz-border-radius: 5px; 
-    -webkit-border-radius: 5px;   
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
     border-radius:5px;
 }
 .auther-box .auther-gender img
@@ -225,9 +226,9 @@
 	margin-top:15px;
 	margin-right:15px;
 	overflow:hidden;
-    -moz-border-radius: 25px; 
-    -webkit-border-radius: 25px;   
-    border-radius:25px;	
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    border-radius:25px;
 	float:left;
 }
 .like-users-box img
@@ -250,7 +251,7 @@
 	width:calc(100% - 100px);
 	margin:0 auto;
 	font-size:30px;
-	color:#666;	
+	color:#666;
 }
 .comment-split
 {
@@ -265,7 +266,7 @@
 }
 .comment-auther-box
 {
-	position:relative;	
+	position:relative;
 }
 .comment-auther-box .auther-header
 {
@@ -274,11 +275,11 @@
 	top:20px;
 	width:50px;
 	height:50px;
-    -moz-border-radius: 40px; 
-    -webkit-border-radius: 40px;   
+    -moz-border-radius: 40px;
+    -webkit-border-radius: 40px;
     border-radius:40px;
 	border: 1px solid #ccc;
-	overflow:hidden;      
+	overflow:hidden;
 }
 .comment-auther-box .auther-header img
 {
@@ -302,8 +303,8 @@
 {
 	width:20px;
 	height:20px;
-    -moz-border-radius: 5px; 
-    -webkit-border-radius: 5px;   
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
     border-radius:5px;
 }
 .auther-sp-gender img
@@ -318,9 +319,9 @@
 	background:#F93;
 	font-size:18px;
 	color:#fff;
-    -moz-border-radius: 5px; 
-    -webkit-border-radius: 5px;   
-    border-radius:5px;	
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius:5px;
 }
 
 .comment-auther-box .comment-date
@@ -349,7 +350,7 @@
 {
 	font-size:16px;
 }
-.comment-like 
+.comment-like
 {
 	position:absolute;
 	height:40px;
@@ -370,7 +371,7 @@
 
 .like-sp-count
 {
-	color:#F0F;
+	color:#e62f17;
 	font-size:28px;
 	padding-left:10px;
 }
@@ -392,12 +393,10 @@
 }
 .comment-reply
 {
-	margin-top:30px;
-    -moz-border-radius: 10px; 
-    -webkit-border-radius: 10px;   
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
     border-radius:10px;
-	padding-bottom:20px;
-	background:#ececec;
+	/*background:#ececec;*/
 }
 
 .reply-auther-box
@@ -412,10 +411,10 @@
 	top:10px;
 	width:40px;
 	height:40px;
-    -moz-border-radius: 20px; 
-    -webkit-border-radius: 20px;   
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
     border-radius:20px;
-	overflow:hidden;      
+	overflow:hidden;
 }
 .reply-auther-box .reply-header img
 {
@@ -431,15 +430,15 @@
 .reply-sp-name
 {
 	font-size:18px;
-	color:#666;
+	color:#e62f17;
 }
 .reply-sp-gender
 {
 	width:16px;
 	height:16px;
 	margin-left:1px;
-    -moz-border-radius: 5px; 
-    -webkit-border-radius: 5px;   
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
     border-radius:5px;
 }
 .reply-sp-gender img
@@ -451,7 +450,7 @@
 {
 	position:absolute;
 	right:20px;
-	top:30px;	
+	top:30px;
 }
 .reply-sp-icon
 {
@@ -475,14 +474,19 @@
 	color:#999;
 }
 .reply-text
-{	
+{
 	width:calc(100% - 100px);
-	margin-left:65px;
+	margin-left:30px;
 	margin-top:10px;
 	margin-bottom:10px;
 	font-size:16px;
 	color:#999;
 	line-height:26px;
+	background:#ececec;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius:10px;
+	padding: 8px;
 }
 .comment-all
 {

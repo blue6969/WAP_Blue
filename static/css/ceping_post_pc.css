@@ -1,0 +1,175 @@
+@charset "UTF-8";
+/* CSS Document */
+body{	
+	background:#dedede;
+}
+.page
+{
+	width:500px;
+	position:relative;
+	margin:0px auto;
+	padding:0px;
+	color:#fff;
+}
+.topic-content
+{
+	background:#e1e1e1;
+}
+.topic-content .datalist
+{
+	display:none;
+	width:calc(100% - 20px);
+	margin:4px auto 20px auto;
+}
+.datalist.selected
+{
+	display:block;
+}
+
+.datalist .data-item
+{
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius:15px;
+	margin-top:18px;
+	background:#fff;
+	position:relative;
+}
+.item-content
+{
+	width:calc(100% - 36px);
+	margin:0 auto;
+}
+.item-title
+{
+	color:#333;
+	font-size:20px;
+	line-height:30px;
+	padding-top:10px;
+}
+.item-remark
+{
+	color:#666;
+	font-size:16px;
+	line-height:24px;
+	max-height:50px;
+	overflow:hidden;
+}
+.item-img-box
+{
+	height:118px;
+	margin-top:8px;
+	position:relative;
+}
+
+.item-img
+{
+	height:118px;
+	width:118px;
+	position:absolute;
+}
+.item-img.imgpos0
+{
+	left:0px;
+}
+.item-img.imgpos1
+{
+	left:calc(50% - 59px);
+}
+.item-img.imgpos2
+{
+	right:0px;
+}
+
+.item-img img
+{
+	height:100%;
+	width:100%;
+}
+.item-image-count
+{
+	position:absolute;
+	right:5px;
+	bottom:5px;
+	width:50px;
+	height:20px;
+	line-height:20px;
+	text-align:center;
+	background:#999;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius:3px;
+	color:#333;
+	filter:alpha(opacity=90); 
+	-moz-opacity:0.9; 
+	opacity:0.9;	
+}
+.item-footer
+{
+	height:32px;
+	margin-top:10px;
+	color:#999;
+	position:relative;
+	font-size:30px;
+}
+.footer-left
+{
+	position:absolute;
+}
+
+.footer-sp-gender img
+{
+	width:14px;
+	height:14px;
+}
+.footer-sp-date
+{
+	color:#c1c1c1;
+	padding-left:5px;
+}
+
+.footer-right
+{
+	position:absolute;
+	right:0px;
+}
+
+.footer-sp-like img
+{
+	width:14px;
+	height:14px;
+}
+.footer-sp-like-count
+{
+	padding-right:10px;
+}
+
+.footer-sp-reply img
+{
+	width:14px;
+	height:14px;
+}
+.footer-sp-reply_count
+{
+	padding-left:5px;
+}
+.item-jing
+{
+	position:absolute;
+	right:0px;
+	top:16px;
+}
+.item-jian
+{
+	position:absolute;
+	right:0px;
+	top:16px;
+}
+
+.item-jing img,.item-jian img
+{
+	width:38px;
+	height:18px;
+}
+
+
